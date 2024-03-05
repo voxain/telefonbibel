@@ -1,0 +1,7 @@
+{
+    "webserver": {
+        "port": 80,
+        "url": "http://localhost"
+    },
+    "database": "./data/phones.json"
+}

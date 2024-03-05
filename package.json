@@ -1,0 +1,19 @@
+{
+  "name": "telefonbibel",
+  "version": "1.0.0",
+  "description": "Organizer für Telefonnummernverzeichnisse inkl. PDF-Generator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js --development"
+  },
+  "type": "module",
+  "author": "voxain",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "express-session": "^1.18.0"
+  }
+}

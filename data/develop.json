@@ -1,0 +1,32 @@
+{
+    "contacts":{
+        "ltek0nxd0002ygxaj0fq": {
+            "identity": {
+                "first_name": "Maximilian",
+                "last_name": "Mustermannoviç",
+                "title": "Dr.",
+                "formula": "Herr",
+                "image": ""
+            },
+            "numbers": {
+                "landline": 555,
+                "dect": 666,
+                "additional": 777
+            }
+        },
+        "ltekwodc0002zvdrc3gj": {
+            "identity": {
+                "first_name": "Silvia",
+                "last_name": "Mustermannovsky",
+                "title": "Prof. Dr.",
+                "formula": "Frau",
+                "image": ""
+            },
+            "numbers": {
+                "landline": 999,
+                "dect": 888,
+                "additional": 111
+            }
+        }
+    }
+}

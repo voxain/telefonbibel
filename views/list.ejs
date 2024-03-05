@@ -1,0 +1,12 @@
+<% for (d in data) { %>
+
+    <%= data[d].identity.formula %>
+    <%= data[d].identity.title %>
+    <%= data[d].identity.first_name %>
+    <%= data[d].identity.last_name %>
+
+    Mobil <%= data[d].numbers.dect %>
+    Festnetz <%= data[d].numbers.landline %>
+    Zusatz <%= data[d].numbers.additional %>
+<br>
+<% } %>
