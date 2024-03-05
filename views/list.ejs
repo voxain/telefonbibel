@@ -1,17 +1,21 @@
-<% for (d in data) { %>
+<div class="table">
 
-    <%= data[d].identity.formula %>
-    <%= data[d].identity.title %>
-    <%= data[d].identity.first_name %>
-    <%= data[d].identity.last_name %>
-
-    Mobil <%= data[d].numbers.dect %>
-    Festnetz <%= data[d].numbers.landline %>
-    Zusatz <%= data[d].numbers.additional %>
-
-    Email 1 <%= data[d].email.primary %>
-    Email 2 <%= data[d].email.secondary %>
-    <!-- TODO: Style list -->
-    <!-- TODO: Skip rendering nonexistant fields -->
-<br>
-<% } %>
+    <% for (d in data) { %>
+        <div class="row">
+            <img src="/img/default-user-icon.png" alt="">
+            <%= data[d].identity.formula %>
+            <%= data[d].identity.title %>
+            <%= data[d].identity.first_name %>
+            <%= data[d].identity.last_name %>
+        
+            Mobil <%= data[d].numbers.dect %>
+            Festnetz <%= data[d].numbers.landline %>
+            Zusatz <%= data[d].numbers.additional %>
+        
+            Email 1 <%= data[d].email.primary %>
+            Email 2 <%= data[d].email.secondary %>
+            <!-- TODO: Style list -->
+            <!-- TODO: Skip rendering nonexistant fields -->
+        </div>
+    <% } %>
+</div>
