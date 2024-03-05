@@ -8,7 +8,7 @@ const app = express()
 app.use( express.static('public') )
 
 export default function (config){
-    const port = 3033
+    let port = 3033
     if(!(config.webserver && config.webserver.port)){
         logger.warn("Config is missing webserver configuraion. Falling back to defaults...")
     }
