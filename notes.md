@@ -64,5 +64,6 @@
     - Landline number
     - DECT number
     - Additional number
+    - Email addresses
     - Gender or Formula (Frau, Herr, Person, Gruppe..)(optional?)
     - Picture(?, optional)

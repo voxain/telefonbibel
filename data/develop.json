@@ -12,6 +12,10 @@
                 "landline": 555,
                 "dect": 666,
                 "additional": 777
+            },
+            "email": {
+                "primary": "max@muster.de",
+                "secondary": "maxi@musterovic.lmao"
             }
         },
         "ltekwodc0002zvdrc3gj": {
@@ -26,6 +30,10 @@
                 "landline": 999,
                 "dect": 888,
                 "additional": 111
+            },
+            "email": {
+                "primary": "silvia@muster.de",
+                "secondary": "silv@mail.lol"
             }
         }
     }
