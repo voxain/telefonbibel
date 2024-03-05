@@ -1,5 +1,7 @@
 # IDEAS
 
+- Possibly automated database backups to a special location/mail address/ftp server...
+
 ### **Login via LDAP** 
 - Assign Permissions to AD Users
 - -> No need to handle Users and passwords
