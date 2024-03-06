@@ -1,21 +1,72 @@
-<div class="table">
+<table>
+
+    <tr class="row">
+        <th class="img">
+            Bild
+        </th>
+        <th>
+            Name
+        </th>
+        <th>
+            Festnetz
+        </th>
+        <th>Mobil</th>
+        <th>
+            Zusatz
+        </th>
+    </tr>
 
     <% for (d in data) { %>
-        <div class="row">
-            <img src="/img/default-user-icon.png" alt="">
-            <%= data[d].identity.formula %>
-            <%= data[d].identity.title %>
-            <%= data[d].identity.first_name %>
-            <%= data[d].identity.last_name %>
+        <tr class="row">
+            <td class="img" style="background-image: url('<%= data[d].identity.image || "/img/default-user-icon.png" %>')"></td>
+            <!-- <img src="/img/default-user-icon.png" alt=""> -->
+            <td class="container big">
+                <div class="title">
+                    <%= data[d].identity.formula %>
+                    <%= data[d].identity.title %>
+                </div>
+                <div class="name">
+                    
+                    <%= data[d].identity.first_name %>
+                    <%= data[d].identity.last_name %>
+                </div>
+                <div class="dept">
+                    Abteilung
+                </div>
+            </td>
+
+            <td class="container">
+                <div class="headline">
+                    Festnetz
+                </div>
+                <div class="number">
+                    <%= data[d].numbers.landline %>
+                </div>
+            </td>
+
+            <td class="container">
+                <div class="headline">
+                    Mobil
+                </div>
+                <div class="number">
+                    <%= data[d].numbers.dect %>
+                </div>
+            </td>
+
+            <td class="container">
+                <div class="headline">
+                    Zusatz
+                </div>
+                <div class="number">
+                    <%= data[d].numbers.additional %>
+                </div>
+            </td>
+            
         
-            Mobil <%= data[d].numbers.dect %>
-            Festnetz <%= data[d].numbers.landline %>
-            Zusatz <%= data[d].numbers.additional %>
-        
-            Email 1 <%= data[d].email.primary %>
-            Email 2 <%= data[d].email.secondary %>
+            <!-- Email 1 <%= data[d].email.primary %>
+            Email 2 <%= data[d].email.secondary %> -->
             <!-- TODO: Style list -->
             <!-- TODO: Skip rendering nonexistant fields -->
-        </div>
+        </tr>
     <% } %>
-</div>
+</table>
