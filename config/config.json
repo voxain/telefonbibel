@@ -3,5 +3,5 @@
         "port": 80,
         "url": "http://localhost"
     },
-    "database": "./data/phones.json"
+    "database": "./data/example.json"
 }

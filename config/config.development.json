@@ -3,5 +3,5 @@
         "port": 3033,
         "url": "http://localhost"
     },
-    "database": "./data/develop.json"
+    "database": "C:/temp/develop.json"
 }
