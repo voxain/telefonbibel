@@ -1,5 +1,8 @@
 # Telefonbibel
 
+> [!WARNING]  
+> Early development preview. Not for production use.
+
 ## Installation
 
 0. Install git, nodejs and npm.
