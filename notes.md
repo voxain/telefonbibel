@@ -12,6 +12,8 @@
 ### **Departments**
 - Department manager to handle depts. and their general phone numbers
 - Assign phone numbers to existing departments through unique IDs, no dupliacates! 
+- Set availability hours and weekdays for depts. and/or people
+- Add emergency numbers or notes for depts.
 
 ### **Start page**
 - Instant view of the entire library / Search field
