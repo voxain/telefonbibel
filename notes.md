@@ -32,6 +32,7 @@
 - Vacation mode would also tell the server not to expect a heartbeat from the software and stop listening until day X
 - If no windows user/serial is linked to a contact, obviously availability information is not shown in the main list
 - Could still be shown when expanding the row, like a little note saying "Availability not tracked"
+- If information is being pulled from AD anyways, could also use the "last logged on" stat for AD users to display that information
 
 ### **Generate PDFs on the fly**
 - Group numbers in PDFs based on department
