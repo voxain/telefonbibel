@@ -20,6 +20,18 @@
 - Company name and logo
 - Button for admin? Or hidden URL (those who know)
 
+### **Availability monitoring (nice to have)**
+- Have a client software auto running on computers
+- Have them report the logged in windows user and/or PC serial number to the server via http every X minutes
+- Link users/serials to contacts so the client doesn't have to be configured and users can switch PCs via roaming profiles
+- If server hasn't gotten a "heartbeat" in the last Y minutes, consider the contact as "not available"
+- That way, if someone's PC is off, or their user is logged in, users won't even have to try calling a specific person as the phone list can already tell them that that person is not in the house
+- Be able to put client software to "unavailable" manually (for pause or if your PC is constantly on), but have the button to re-enable it be constantly on top of the screen so you don't forget to reactivate
+- Be able to set a vacation mode which will tell users that you're not available until that date
+- Vacation mode would also tell the server not to expect a heartbeat from the software and stop listening until day X
+- If no windows user/serial is linked to a contact, obviously availability information is not shown in the main list
+- Could still be shown when expanding the row, like a little note saying "Availability not tracked"
+
 ### **Generate PDFs on the fly**
 - Group numbers in PDFs based on department
 - Generate separate PDFs for mobile and landline
