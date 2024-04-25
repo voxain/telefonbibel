@@ -24,6 +24,7 @@
 - Have a client software auto running on computers
 - Have them report the logged in windows user and/or PC serial number to the server via http every X minutes
 - Link users/serials to contacts so the client doesn't have to be configured and users can switch PCs via roaming profiles
+- Reducing client configuration further, try to add a discovery service for the server or have a file in the netlogon directory pointing a client to where the server is. That way, chainging server hostnames and/or IPs would be possible
 - If server hasn't gotten a "heartbeat" in the last Y minutes, consider the contact as "not available"
 - That way, if someone's PC is off, or their user is logged in, users won't even have to try calling a specific person as the phone list can already tell them that that person is not in the house
 - Be able to put client software to "unavailable" manually (for pause or if your PC is constantly on), but have the button to re-enable it be constantly on top of the screen so you don't forget to reactivate
